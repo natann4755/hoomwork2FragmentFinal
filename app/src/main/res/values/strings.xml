@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">myHoomRececFragment</string>
+    <string name="ml_Tv1_titel">titel</string>
+    <string name="ml_Tv2_text">text</string>
+</resources>

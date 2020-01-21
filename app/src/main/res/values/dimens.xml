@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ml_tv1_ts">40sp</dimen>
+    <dimen name="ml_tv2_ts">20sp</dimen>
+    <dimen name="ml_tv1_margin">10dp</dimen>
+</resources>

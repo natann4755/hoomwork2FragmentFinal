@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="140dp">
+
+    <ImageView
+        android:id="@+id/ML_TV_imeg"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:src="@drawable/rabbi_jacob">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ML_TV_titel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ml_Tv1_titel"
+            android:textSize="@dimen/ml_tv1_ts"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ml_Tv2_text"
+            android:id="@+id/ML_tv_mytext"
+            android:textSize="@dimen/ml_tv2_ts"
+            android:textColor="@color/colorPrimary"
+            android:layout_margin="@dimen/ml_tv1_margin"></TextView>
+    </LinearLayout>
+
+</LinearLayout>
